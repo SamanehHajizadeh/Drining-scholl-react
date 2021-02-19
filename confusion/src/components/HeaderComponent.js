@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Form, FormGroup, Modal, ModalHeader, ModalBody, Label, Input, Col } from 'reactstrap';
-import { NavLink , Link, Router, Route} from 'react-router-dom';
 import Student from "./Student";
-=======
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Form, FormGroup,FormFeedback, Modal, ModalHeader, ModalBody, Label, Input, Col } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
->>>>>>> parent of 2eb8332... Building and Deploying the React Application.
+
 
 class Header extends Component {
     constructor(props) {

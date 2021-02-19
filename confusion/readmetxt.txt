@@ -27,7 +27,7 @@ yarn add react-popper@0.9.2
 to:
     https://*username*@github.com/WEMP/project-slideshow.git
  -------------------------------------------------------------
- sudo chmod -R 777 folderName
+ --sudo chmod -R 777 folderName
  -------------------------------------------------------------
  download and import to index.js
  yarn add font-awesome@4.7.0

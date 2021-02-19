@@ -10,11 +10,7 @@ import Teacher from "./Teacher";
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from "react-redux";
 import { actions } from "react-redux-form";
-<<<<<<< HEAD
-import { postComment , fetchStudents, fetchComments, fetchPromos, fetchLeader, postFeedback } from '../redux/ActionCreators';
-=======
-import { postComment , addComments, fetchDishes, fetchComments, fetchPromos, fetchLeader, postFeedback } from '../redux/ActionCreators';
->>>>>>> parent of 2eb8332... Building and Deploying the React Application.
+import { fetchStudents,postComment , addComments, fetchDishes, fetchComments, fetchPromos, fetchLeader, postFeedback } from '../redux/ActionCreators';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 const mapStatetoProps = state => { 
@@ -29,7 +25,7 @@ const mapStatetoProps = state => {
  } 
 
  const mapDispatchToProps = dispatch => ({
-   postFeedback: (feedbackId, firstname, lastname, telnum, email, agree, contactType, messages) => dispatch(postFeedback(feedbackId, firstname, lastname, telnum, email, agree, contactType, messages)), 
+   postFeedback: (feedbackId, firstname, lastname, telnum, email, agree, contactType, messages) => dispatch(postFeedback(feedbackId, firstname, lastname, telnum, email, agree, contactType, messages)),
     fetchStudents : () => dispatch(fetchStudents())
   });
  
